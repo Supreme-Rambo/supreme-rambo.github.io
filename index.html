@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM-STIX Conversion Accuracy Blog</title>
+    <meta name="description" content="A research blog on the accuracy of Large Language Models (LLMs) in converting Indicators of Compromise (IOCs) into STIX format.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+<body>
+    <header>
+        <div class="container">
+            <h1>LLM-STIX Conversion Accuracy Research Blog</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About This Research</a></li>
+                    <li><a href="#blog-posts">Blog Posts</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="hero">
+            <h2>Exploring the Precision of AI in Cybersecurity Data Transformation</h2>
+            <p class="lead">This blog serves as a platform to share ongoing research and insights into the capabilities of Large Language Models (LLMs) when tasked with converting raw Indicators of Compromise (IOCs) into structured STIX (Structured Threat Information eXpression) formats. We delve into accuracy metrics, challenges, and future directions for this critical cybersecurity application.</p>
+            <a href="#blog-posts" class="button">Read Our Latest Insights</a>
+        </section>
+
+        <section id="about">
+            <h2>About This Research</h2>
+            <p>In the evolving landscape of cybersecurity, the timely and accurate exchange of threat intelligence is paramount. STIX (Structured Threat Information eXpression) provides a standardized language for this, but manually converting diverse IOCs (e.g., IP addresses, file hashes, URLs, domain names) into STIX can be time-consuming and error-prone. Our research investigates the efficacy of LLMs in automating this conversion process.</p>
+            <p>Specifically, we aim to:</p>
+            <ul>
+                <li>Quantify the accuracy of various LLMs in identifying and extracting different types of IOCs from unstructured text.</li>
+                <li>Evaluate their performance in mapping these extracted IOCs to appropriate STIX objects and properties.</li>
+                <li>Identify common failure modes and biases in LLM-based STIX conversion.</li>
+                <li>Propose methodologies for improving LLM accuracy and reliability in this domain.</li>
+            </ul>
+        </section>
+
+        <section id="blog-posts">
+            <h2>Latest Blog Posts</h2>
+            <div class="post-list">
+                <article class="blog-post-card">
+                    <h3><a href="posts/2025-07-23-introduction-llm-stix.html">Introduction to LLM-STIX Conversion: Why it Matters</a></h3>
+                    <p class="meta">July 23, 2025 | By [Your Name/Team Name]</p>
+                    <p>A foundational post discussing the significance of automated IOC-to-STIX conversion and the potential role of LLMs in streamlining threat intelligence operations.</p>
+                    <a href="posts/2025-07-23-introduction-llm-stix.html" class="read-more">Read More &rarr;</a>
+                </article>
+
+                <article class="blog-post-card">
+                    <h3><a href="posts/2025-07-15-evaluating-ip-stix-accuracy.html">Case Study: Evaluating LLM Accuracy for IP Address to STIX Conversion</a></h3>
+                    <p class="meta">July 15, 2025 | By [Your Name/Team Name]</p>
+                    <p>This post presents preliminary findings on how well LLMs convert IP addresses into STIX Observed Data and Indicator objects, highlighting common errors and successes.</p>
+                    <a href="posts/2025-07-15-evaluating-ip-stix-accuracy.html" class="read-more">Read More &rarr;</a>
+                </article>
+
+                <article class="blog-post-card">
+                    <h3><a href="#">Upcoming: Challenges in Handling Complex IOC Structures</a></h3>
+                    <p class="meta">Coming Soon | By [Your Name/Team Name]</p>
+                    <p>A deeper dive into the difficulties LLMs face when dealing with more intricate IOC patterns and how to mitigate them.</p>
+                    <a href="#" class="read-more disabled">Stay Tuned!</a>
+                </article>
+            </div>
+            <div class="view-all-posts">
+                <a href="archive.html" class="button">View All Posts</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact & Collaboration</h2>
+            <p>We are open to collaboration and welcome feedback on our research. If you have questions, insights, or would like to contribute, please feel free to reach out:</p>
+            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+            <p>GitHub Repository: <a href="https://github.com/your-username/your-repo-name" target="_blank">github.com/your-username/your-repo-name</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> [Your Name/Team Name]. All rights reserved.</p>
+            <p>Powered by GitHub Pages</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
