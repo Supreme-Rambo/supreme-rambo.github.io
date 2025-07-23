@@ -132,6 +132,7 @@ section h2 {
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
+    /* Default background, will be overridden by specific color classes */
     background-color: #fff;
     box-shadow: 0 1px 3px rgba(0,0,0,0.08);
     transition: transform 0.2s ease-in-out;
@@ -152,7 +153,6 @@ section h2 {
 }
 
 .blog-post-card h3 a:hover {
-    color: #007bff;
     text-decoration: underline;
 }
 
@@ -166,6 +166,75 @@ section h2 {
     font-size: 0.9em;
     font-weight: bold;
 }
+
+/* --- New Color Schemes for Blog Post Cards --- */
+
+/* Color Scheme 1: Light Blue */
+.blog-post-card.color-scheme-1 {
+    background-color: #e0f2f7; /* Light blue background */
+    border-color: #a7d9ed;
+    color: #2c3e50; /* Darker text for contrast */
+}
+.blog-post-card.color-scheme-1 h3 a {
+    color: #0056b3; /* Darker blue for title links */
+}
+.blog-post-card.color-scheme-1 .meta {
+    color: #557c8d;
+}
+.blog-post-card.color-scheme-1 .read-more {
+    color: #0056b3;
+}
+
+/* Color Scheme 2: Light Green */
+.blog-post-card.color-scheme-2 {
+    background-color: #e6ffe6; /* Light green background */
+    border-color: #b3e6b3;
+    color: #2e4d2e; /* Darker text for contrast */
+}
+.blog-post-card.color-scheme-2 h3 a {
+    color: #28a745; /* Green for title links */
+}
+.blog-post-card.color-scheme-2 .meta {
+    color: #5c855c;
+}
+.blog-post-card.color-scheme-2 .read-more {
+    color: #28a745;
+}
+
+/* Color Scheme 3: Light Orange */
+.blog-post-card.color-scheme-3 {
+    background-color: #fff0e6; /* Light orange background */
+    border-color: #ffd6b3;
+    color: #5c3d2e; /* Darker text for contrast */
+}
+.blog-post-card.color-scheme-3 h3 a {
+    color: #fd7e14; /* Orange for title links */
+}
+.blog-post-card.color-scheme-3 .meta {
+    color: #8c6a5c;
+}
+.blog-post-card.color-scheme-3 .read-more {
+    color: #fd7e14;
+}
+
+/* Color Scheme 4: Light Purple (Example, add more if needed) */
+.blog-post-card.color-scheme-4 {
+    background-color: #f5e6ff; /* Light purple background */
+    border-color: #d1b3e6;
+    color: #4d2e5c; /* Darker text for contrast */
+}
+.blog-post-card.color-scheme-4 h3 a {
+    color: #6f42c1; /* Purple for title links */
+}
+.blog-post-card.color-scheme-4 .meta {
+    color: #855c8c;
+}
+.blog-post-card.color-scheme-4 .read-more {
+    color: #6f42c1;
+}
+
+/* --- End New Color Schemes --- */
+
 
 .view-all-posts {
     text-align: center;
